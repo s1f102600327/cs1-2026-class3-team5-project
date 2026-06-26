@@ -1,9 +1,9 @@
- /* リストの点を消す */
+/* リストの点を消す */
 ul {
     list-style: none;
     padding: 0;
 }
-/* 各ランキングの箱 */
+/* ランキングのボタン部分 */
 li a {
     display: block;
     padding: 20px;
