@@ -1,0 +1,32 @@
+ /* リストの点を消す */
+ul {
+    list-style: none;
+    padding: 0;
+}
+/* 各ランキングの箱 */
+li a {
+    display: block;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* 1つ目 */
+li:nth-child(1) a {
+    background-color: #ff5733;
+}
+/* 2つ目 */
+li:nth-child(2) a {
+    background-color: #3399ff;
+}
+/* 3つ目 */
+li:nth-child(3) a {
+    background-color: #33cc66;
+}
+/* マウスを乗せた時 */
+a:hover {
+    opacity: 0.8;
+}
